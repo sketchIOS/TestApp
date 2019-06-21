@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B7A4CC02171CFAA00409838 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B7A4CBF2171CFAA00409838 /* MobileCoreServices.framework */; };
 		8BC8E09C1FB9A26800BC5173 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC8E09B1FB9A26800BC5173 /* AppDelegate.m */; };
 		8BC8E09F1FB9A26800BC5173 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC8E09E1FB9A26800BC5173 /* ViewController.m */; };
 		8BC8E0A21FB9A26800BC5173 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BC8E0A01FB9A26800BC5173 /* Main.storyboard */; };
@@ -16,6 +17,10 @@
 		8BC8E0AD1FB9A26800BC5173 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC8E0AC1FB9A26800BC5173 /* main.m */; };
 		8BC8E0B71FB9A26900BC5173 /* AppTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC8E0B61FB9A26900BC5173 /* AppTestTests.m */; };
 		8BC8E0C21FB9A26900BC5173 /* AppTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC8E0C11FB9A26900BC5173 /* AppTestUITests.m */; };
+		8BC8E0D11FBC515D00BC5173 /* LeftPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC8E0D01FBC515D00BC5173 /* LeftPanelView.m */; };
+		8BC8E0D31FBC516D00BC5173 /* LeftPanelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BC8E0D21FBC516D00BC5173 /* LeftPanelView.xib */; };
+		8BC8E1171FC3F14700BC5173 /* PopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC8E1161FC3F14700BC5173 /* PopupView.m */; };
+		8BC8E1191FC3F15A00BC5173 /* PopupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BC8E1181FC3F15A00BC5173 /* PopupView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B7A4CBF2171CFAA00409838 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		8BC8E0971FB9A26800BC5173 /* AppTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BC8E09A1FB9A26800BC5173 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8BC8E09B1FB9A26800BC5173 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,6 +59,12 @@
 		8BC8E0BD1FB9A26900BC5173 /* AppTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BC8E0C11FB9A26900BC5173 /* AppTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppTestUITests.m; sourceTree = "<group>"; };
 		8BC8E0C31FB9A26900BC5173 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BC8E0CF1FBC515D00BC5173 /* LeftPanelView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeftPanelView.h; sourceTree = "<group>"; };
+		8BC8E0D01FBC515D00BC5173 /* LeftPanelView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeftPanelView.m; sourceTree = "<group>"; };
+		8BC8E0D21FBC516D00BC5173 /* LeftPanelView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeftPanelView.xib; sourceTree = "<group>"; };
+		8BC8E1151FC3F14700BC5173 /* PopupView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopupView.h; sourceTree = "<group>"; };
+		8BC8E1161FC3F14700BC5173 /* PopupView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopupView.m; sourceTree = "<group>"; };
+		8BC8E1181FC3F15A00BC5173 /* PopupView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopupView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B7A4CC02171CFAA00409838 /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +93,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B7A4CBE2171CFAA00409838 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B7A4CBF2171CFAA00409838 /* MobileCoreServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8BC8E08E1FB9A26800BC5173 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +108,7 @@
 				8BC8E0B51FB9A26900BC5173 /* AppTestTests */,
 				8BC8E0C01FB9A26900BC5173 /* AppTestUITests */,
 				8BC8E0981FB9A26800BC5173 /* Products */,
+				8B7A4CBE2171CFAA00409838 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +135,12 @@
 				8BC8E0AB1FB9A26800BC5173 /* Info.plist */,
 				8BC8E0AC1FB9A26800BC5173 /* main.m */,
 				8BC8E0A31FB9A26800BC5173 /* AppTest.xcdatamodeld */,
+				8BC8E0CF1FBC515D00BC5173 /* LeftPanelView.h */,
+				8BC8E0D01FBC515D00BC5173 /* LeftPanelView.m */,
+				8BC8E0D21FBC516D00BC5173 /* LeftPanelView.xib */,
+				8BC8E1151FC3F14700BC5173 /* PopupView.h */,
+				8BC8E1161FC3F14700BC5173 /* PopupView.m */,
+				8BC8E1181FC3F15A00BC5173 /* PopupView.xib */,
 			);
 			path = AppTest;
 			sourceTree = "<group>";
@@ -202,7 +230,7 @@
 				TargetAttributes = {
 					8BC8E0961FB9A26800BC5173 = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					8BC8E0B11FB9A26900BC5173 = {
 						CreatedOnToolsVersion = 9.0;
@@ -241,7 +269,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BC8E0D31FBC516D00BC5173 /* LeftPanelView.xib in Resources */,
 				8BC8E0AA1FB9A26800BC5173 /* LaunchScreen.storyboard in Resources */,
+				8BC8E1191FC3F15A00BC5173 /* PopupView.xib in Resources */,
 				8BC8E0A71FB9A26800BC5173 /* Assets.xcassets in Resources */,
 				8BC8E0A21FB9A26800BC5173 /* Main.storyboard in Resources */,
 			);
@@ -270,6 +300,8 @@
 			files = (
 				8BC8E0A51FB9A26800BC5173 /* AppTest.xcdatamodeld in Sources */,
 				8BC8E09F1FB9A26800BC5173 /* ViewController.m in Sources */,
+				8BC8E0D11FBC515D00BC5173 /* LeftPanelView.m in Sources */,
+				8BC8E1171FC3F14700BC5173 /* PopupView.m in Sources */,
 				8BC8E0AD1FB9A26800BC5173 /* main.m in Sources */,
 				8BC8E09C1FB9A26800BC5173 /* AppDelegate.m in Sources */,
 			);
@@ -434,11 +466,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = EQDME7CNXM;
 				INFOPLIST_FILE = AppTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sketchwebsolutions.AppTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "af3470dc-59a3-46e4-b7d4-2551c592fe51";
+				PROVISIONING_PROFILE_SPECIFIER = devSketchProvision_09Oct2107;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -447,11 +482,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = EQDME7CNXM;
 				INFOPLIST_FILE = AppTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sketchwebsolutions.AppTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "af3470dc-59a3-46e4-b7d4-2551c592fe51";
+				PROVISIONING_PROFILE_SPECIFIER = devSketchProvision_09Oct2107;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

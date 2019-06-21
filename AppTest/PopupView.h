@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface PopupView : UIView
+@property (weak, nonatomic) IBOutlet UIView *contaierView;
+@property (weak, nonatomic) IBOutlet UILabel *lblTitle;
+@property (weak, nonatomic) IBOutlet UILabel *lblDescription;
 
 @end
